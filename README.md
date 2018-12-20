@@ -1,5 +1,6 @@
 # project2
 Connecting website between developers $ thier projects to arrange and mange the project
+programmers serve with their projects
 
 
 Explanations of the technologies used
