@@ -1,5 +1,5 @@
 # project2
-cunducting website between developers $ thier projects to arrange and mange the project
+Connecting website between developers $ thier projects to arrange and mange the project
 
 
 Explanations of the technologies used
