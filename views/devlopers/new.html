@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/static/styles/styles.css">
+
+    <title>Document</title>
+</head>
+<body class="p-3 mb-2 bg-secondary text-white">
+        <div class="container">
+    <form action="/developer" method="POST"> 
+    <label for="name"> <input type="text" name="name" id='name' placeholder="name"></label>
+    <!-- <label for="specialist"> <input type="text" name="specialist" id='specialist' placeholder="specialist"></label> -->
+        <select name="specialist" id="specialist" disabled="disabled">
+                <option value="volvo">web</option>
+                <option value="saab">mobile</option>
+        </select>
+    <label for="email"> <input type="text" name="email" id='email' placeholder="email"></label>
+    <label for="picture"> <input type="text" name="picture" id='picture' placeholder="picture"></label>
+    <label for="no_project"> <input type="text" name="no_project" id='no_project' placeholder="no_project"></label>
+    <button type="submit">new developer</button>
+
+    
+    
+    </form>
+</div>
+</body>
+</html>
+
+
+<!-- 
+<select>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+      </select> -->

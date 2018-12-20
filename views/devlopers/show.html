@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/static/styles/styles.css">
+
+    <title>Document</title>
+</head>
+<body class="p-3 mb-2 bg-dark text-white"></body>>
+    <div  class="container-fluid">
+    {{#devloperlist}}
+    <br>
+    Name: {{name}}
+    <br>
+    Specialist: {{specialist}}
+    Email: {{email}}
+    No_Project: {{no_project}}
+    
+    <br>
+    </div>
+    <img src="{{picture}}" alt="">
+    <br>
+   
+    
+    
+
+    <button >add New</button>
+    
+    <form action="/developer/{{id}}?_method=DELETE" method="POST">
+        <button type="submit">Delete devloper</button>
+    </form>
+    <!-- <form action="/developer/{{id}}?_method=PUT" method="POST"> 
+        <button type="submit">edit devloper</button>
+        </form> -->
+    <a href="/developer/{{id}}/edit">EDIT</a>
+    {{/devloperlist}}
+
+</body>
+</html>
